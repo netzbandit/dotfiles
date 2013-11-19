@@ -19,7 +19,7 @@
 
 # homebrew!
 # you need the code CLI tools YOU FOOL.
-#ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
 
 
@@ -64,7 +64,7 @@ chmod +x ~/z/z.sh
 # Check gems are up to date without installing documentation
 sudo gem update --system --no-document
 # Install jekyll
-sudo gem install jekyll
+# sudo gem install jekyll
 
 # Set symlink for Sublime Text 2
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
